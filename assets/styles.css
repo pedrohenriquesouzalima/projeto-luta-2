@@ -1,0 +1,31 @@
+.figtharea{
+    display: flex;
+    gap: 20px;
+} /*estilização figtharea*/
+
+#char,
+#monster{
+    flex: 1;
+}/*estilização chat e monster*/
+
+
+.lifebar{
+    height: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}/*estilização barra de vida*/
+
+
+.lifebar .bar{
+    height: inherit;
+    background-color: red;
+    border-radius: 5px;
+    
+} /*estilização barra de vida */
+
+
+.log{
+    border: 1px dotted #999;
+    height: 200px;
+    overflow-y: scroll;
+}/*estilização da lista das lutas */
